@@ -1,0 +1,36 @@
+.storyContent {
+	padding: 0 10px 10px;
+	line-height: 22px;
+	text-align: left;
+}
+.storyContent h1 {
+	font-size: 25px;
+}
+.storyContent > p {
+	text-indent: 20px;
+}
+.storyComment > .storyContent {
+	margin-top: 30px;
+}
+.articleBody {
+	padding: 15px 50px 20px;
+	line-height: 22px;
+	text-align: left;
+}
+.articleBody > p {
+	margin-bottom: 25px;	
+}
+.articleImage {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+.articleImage img {
+	max-width: 600px;
+}
+.articleCaption {
+	width: 100%;
+	text-align: center;
+	font-style: italic;	
+	margin-bottom: -10px;
+}

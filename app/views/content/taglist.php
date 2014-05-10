@@ -1,0 +1,1 @@
+<?php $i=0; foreach ($Links as $Link): if ($i) echo ', '; ?><a href="/articles?tag=<?php echo $Link->Tag->Tag_id; ?>"><?php echo $Link->Tag->Tag_name; ?></a><?php $i++; endforeach; ?>

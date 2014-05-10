@@ -1,0 +1,15 @@
+a:link, a:visited {
+    color: red;
+	text-decoration: none;
+}
+a:hover, a:active, .button:hover {
+    color: #dd3c3c;
+	text-decoration: underline;
+}
+body {
+	background: white;
+	color: black;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana;
+    font-size: 12px;
+	text-align: justify;
+}

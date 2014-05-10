@@ -1,0 +1,1 @@
+<p><a href="<?php echo $link; ?>"<?php if (isset($popup)) echo ' class="popup"'; ?>><?php echo isset($label) ? $label : $link; ?></a></p>

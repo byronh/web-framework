@@ -1,0 +1,1 @@
+<p style="line-height:50px;"><?php if (isset($color)) { ?><font color="<?php echo $color; ?>"><?php } ?><?php echo isset($text) ? $text : '&nbsp'; ?><?php if (isset($color)) { ?></font><?php } ?></p>

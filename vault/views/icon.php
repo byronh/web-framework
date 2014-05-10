@@ -1,0 +1,1 @@
+<p><img src="/icon/<?php echo $icon; ?>.png" alt="" /></p>

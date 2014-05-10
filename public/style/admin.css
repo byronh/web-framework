@@ -1,0 +1,43 @@
+.adminColumn {
+    float: left;
+    width: 20%;
+}
+.adminColumn > p {
+    margin: 10px 0;
+}
+.cpg {
+    text-align: center;
+}
+.graybox {
+	background-color: #E9E9E9;
+	margin: 10px auto;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	width: 180px;
+}
+.tableform {
+	border-collapse: collapse;
+	width: 100%;
+	background-color: #E9E9E9;
+}
+.tableform .even {
+	background-color: #E2E2E2;
+}
+.tableform tr {
+	border: 5px solid #CCCCCC;
+}
+.tableform th {
+	padding: 10px 0;
+	text-align: center;
+}
+.tableform td {
+	border: 5px solid #CCCCCC;
+	vertical-align: middle;
+	text-align: center;
+}
+.uploadImage {
+	padding: 3px;
+	margin: 5px;
+	min-width: 200px;
+}

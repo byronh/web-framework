@@ -1,0 +1,233 @@
+a:link, a:visited {
+    color: red;
+	text-decoration: none;
+}
+a:hover, a:active, .button:hover {
+    color: #dd3c3c;
+	text-decoration: underline;
+}
+body {
+	background: white url('/img/bg1.png') repeat;
+	color: black;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana;
+    font-size: 12px;
+	text-align: left;
+}
+body > .container {
+    background: #808080 url('/img/bottomgray964.png') no-repeat left bottom;
+	margin: 0 auto;
+    padding: 5px 10px 20px;
+    width: 944px;
+}
+body > h6 {
+	background: gray url('/img/topgray964.png') no-repeat left top;
+	margin: 0 auto;
+	width: 964px;
+}
+.button {
+	border: none;
+	background: none;
+	color: red;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+.clear:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.footer {
+	margin: 0 auto;
+	padding: 10px;
+	border-top: 12px solid #808080;
+	background: #cccccc;
+	text-align: center;
+	font-size: 10px;
+}
+.formerror {
+    color: red;
+}
+.header > .headerLogin {
+	background: #cccccc;
+	overflow: hidden;
+	padding: 0 10px 10px;
+}
+h1, h2, h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+h1 {
+	margin: 10px 0 10px;
+}
+h2 {
+	margin: 0 10px;
+}
+.headerBanner {
+    float: left;
+}
+.headerLogin {
+    float: right;
+    height: 133px;
+    width: 199px;
+}
+img {
+    border: none;
+}
+input {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana;
+    font-size: 12px;
+    margin: 0;
+}
+.leftFloat {
+	float: left;
+}
+.rightFloat {
+	float: right;
+	margin-right: 5px;
+}
+.mainArea > .mainContent, .mainArea > .mainContentFull, .mainArea > .sideNav {
+	background: #cccccc;
+	min-height: 500px;
+	overflow: hidden;
+	padding: 0 10px 10px;
+}
+.mainNav ul {
+	background: #911a1a url('/img/gradient1.png') repeat-x;
+    float: left;
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+}
+.mainNav ul a {
+	color: white;
+    display: block;
+    line-height: 25px;
+    padding: 0 30px;
+    text-decoration: none;
+}
+.mainNav ul li {
+    float: left;
+}
+.mainNav ul a:hover, .mainNav ul a:focus {
+	background: #ffffff url('/img/gradient2.png') repeat-x;
+    color: black;
+}
+p {
+	margin: 0;
+}
+.preview {
+    float: left;
+    margin: 0 10px 0;
+    height: 120px;
+    width: 160px;
+}
+.red {
+	color: red;	
+}
+.small {
+    font-size: 10px;
+}
+#social a {
+	margin-right: 10px;
+}
+.social {
+	margin-top: 10px;
+	margin-bottom: -5px;	
+}
+.social p {
+	margin-bottom: 5px;	
+}
+.social div {
+	float: left;
+	display: block;
+	margin-right: 10px;	
+}
+.spaced {
+	margin-bottom: 15px;
+}
+.spacedabit {
+	margin-bottom: 7px;	
+}
+.spacedalot {
+	margin-bottom: 30px;
+}
+.spacedboth {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.spacedleft {
+	margin-left: 10px;	
+}
+.spacedtop {
+	margin-top: 15px;
+}
+.spacedtopabit {
+	margin-top: 7px;	
+}
+.unspacedbottom {
+	margin-bottom: -10px;	
+}
+#submit input {
+    background-color: white;
+}
+.subtext {
+    color: gray;
+    font-size: 10px;
+    font-weight: normal;
+}
+.text {
+	margin: 0 10px;
+	line-height: 19px;
+	text-align: left;
+}
+
+.forum {
+	margin: -10px 10px 0;
+}
+.forum table {
+	border-collapse: collapse;
+	width: 100%;
+}
+.forum td {
+	padding: 10px 0 3px;
+}
+.forum th {
+	text-align: left;
+	border-bottom: 2px solid #cccccc;
+	padding: 0;
+}
+.topic td {
+	height: 12px;
+	padding: 3px 0;
+}
+
+.signature {
+	margin-top: 10px;
+	border-top: 1px solid #CCCCCC;
+    padding-top: 5px;
+}
+.posted {
+	padding: 0 0 10px;
+	margin: -5px 0 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.poster {
+	margin: -20px 0 0 10px;
+}
+.posterinfo {
+	margin: 0 0 0 10px;
+}
+.posterinfo img {
+	margin: 5px 0 10px;
+}
+.content {
+	width: 760px;
+    overflow: hidden;
+}

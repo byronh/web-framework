@@ -1,0 +1,1 @@
+<p><strong>Current Tags:</strong> <?php $num = 0; foreach ($Tags as $Tag): if ($num != 0) { echo ', '; } $num++; ?><a href="#"><?php echo $Tag->Tag_name; ?></a><?php endforeach; ?></p>

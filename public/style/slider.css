@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+.lof-slidecontent{
+	position:relative;
+	overflow:hidden;
+	border: 10px solid #1E1E1E;
+	width:904px;
+	height:300px;
+	margin: 10px 0;
+}
+.lof-slidecontent .preload{
+	height:100%;
+	width:100%;
+	background:#FFF;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:100000;
+	color:#FFF;
+	text-align:center
+}
+.lof-slidecontent .preload div{
+	height:100%;
+	width:100%;
+	background:transparent url(../images/load-indicator.gif) no-repeat scroll 50% 50%;
+}
+.lof-main-outer{
+	position:relative;
+	height:100%;
+	width:924px;
+	z-index:3;
+	overflow:hidden;
+	background: #1E1E1E;
+}
+
+
+/*******************************************************/
+.lof-main-item-desc{
+	z-index: 100;
+	position:absolute;
+	bottom: 15px;
+	left: 15px;
+	width: 654px;
+	background: url(../images/transparent_bg.png);
+	cursor:pointer;
+}
+.lof-main-item-desc p{
+	color: white;
+	margin:0 8px;
+	padding:8px 0
+}
+.lof-main-item-desc p a {
+	color: white;
+	font-weight: bold;	
+}
+.lof-main-item-desc h3 {
+	margin: 5px 0 0;
+	font-weight: normal;
+	color: white;
+	font-size: 12px;
+}
+.lof-main-item-desc h3 a{
+	color: white;	
+	margin:0;
+	font-size:18px;
+	font-weight: bold;
+	padding:10px 8px 2px;
+	font-family: "Trebuchet MS",Trebuchet,Arial,Verdana,sans-serif;
+}
+
+/* main flash */
+ul.lof-main-wapper{
+	/* margin-right:auto; */
+	overflow:hidden;
+	background:transparent url(../images/load-indicator.gif) no-repeat scroll 50% 50%;
+	padding:0px;
+	margin:0;
+	height:300px;
+	width: 684px;
+	position:absolute;
+	overflow:hidden;
+}
+
+ul.lof-main-wapper li{
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+	height:100%;
+	width: 684px;
+	float:left;
+}
+.lof-opacity  li{
+	position:absolute;
+	top:0;
+	left:0;
+	float:inherit;
+}
+ul.lof-main-wapper li img{
+	padding:0px;	
+	width: 684px;
+}
+
+li-desc{
+	z-index:100;
+	position:absolute;
+	top:150px;
+	left:50px;
+	width:400px;
+	background:url(../images/transparent_bg.png);
+}
+li-desc p{
+	color:#FFF;
+	margin:0 8px;
+	padding:8px 0
+}
+li-desc h3 a{
+	color:#FFF;	
+	margin:0;
+	font-size:140%;
+	padding:20px 8px 2px;
+	font-family:"Trebuchet MS",Trebuchet,Arial,Verdana,sans-serif;
+}
+li-desc h3 a:hover{
+	color:#FF6;
+	text-decoration:underline;
+}
+
+/* item navigator */
+ul.lof-navigator{
+	top:0;
+	padding:0;
+	margin:0;
+	position:absolute;
+	width:100%;
+}
+ul.lof-navigator li{
+	cursor:pointer;
+	list-style:none;
+	width:100%;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+.lof-navigator-outer{
+	position:absolute;
+	right:0;
+	top:0px;
+	z-index:100;
+	height:350px;
+	width:310px;
+	overflow:hidden;
+}
+.lof-navigator li div{
+	height:100%;
+	position:relative;
+	margin-left:15px;
+	padding-left:15px;
+	padding-right: 15px;
+	border-left: 10px solid #1E1E1E;
+	opacity: 0.6;
+}
+.lof-navigator li.active div{
+	opacity: 1;
+}

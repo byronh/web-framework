@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /cache/
+Disallow: /icon/
+Disallow: /img/
+Disallow: /style/
+Disallow: /script/
+
+User-agent: litefinder
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: Baidu
+Disallow: /

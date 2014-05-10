@@ -1,0 +1,1 @@
+<p><?php if (isset($color)) { ?><font color="<?php echo $color; ?>"><?php } ?><?php echo $text; ?><?php if (isset($color)) { ?></font><?php } ?></p>

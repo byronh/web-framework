@@ -1,0 +1,68 @@
+.basicPaginator {
+	padding: 10px;
+}
+.content924 > h6 {
+    background: white url('/img/topwhite924.png') no-repeat left top;
+    margin: 0 auto;
+    width: 924px;
+}
+.content220 > h6 {
+    background: white url('/img/topwhite220.png') no-repeat left top;
+    margin: 0 auto;
+    width: 220px;
+}
+.mainContentFull {
+    width: 924px;
+}
+.mainContentFullContribute {
+	margin-left: -10px;
+	padding-top: 20px;
+}
+.mainContentFull > .content924 {
+    background: white url('/img/bottomwhite924.png') no-repeat left bottom;
+    margin: 0 auto 10px;
+    padding-bottom: 10px;
+	width: 924px;
+}
+.content924 > .leftFloat, .content924 > .rightFloat {
+	margin: 0 10px 5px;
+}
+.mainContentFull > .leftColumn {
+	float:left;
+	padding: 0;
+	margin:0 10px 0 0;
+	width: 694px;
+}
+.mainContentFull > .rightColumn {
+	float:right;
+	padding: 0;
+	margin:0;
+}
+.redBox {
+	color: white;
+	background:#911a1a url('/img/gradient1.png') repeat-x;
+	line-height: 25px;
+	padding: 0 0 0 20px;
+}
+.leftColumn > .redBox {
+	margin: 0 10px 10px 0;
+	width: 674px;
+}
+.rightColumn > .redBox {
+	margin: 0 0 10px 0px;
+	width: 200px;
+}
+.rightColumn > .content220 {
+    background: white url('/img/bottomwhite220.png') no-repeat left bottom;
+    margin: 0 auto 10px;
+    padding-bottom: 10px;
+	width: 220px;
+}
+.content220 p {
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.content220 input {
+	margin-bottom: 10px;
+}
